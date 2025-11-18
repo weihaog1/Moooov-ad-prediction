@@ -1,10 +1,7 @@
-# Ad Budget Allocation - Simplified Version
+# Ad Budget Allocation
 
-A clean, database-free implementation of the ad budget optimization system for Amazon advertising campaigns.
 
-## Features
 
-Implements 100% of assignment requirements:
 
 ### Core Tasks
 1. **Task 1**: Hourly budget allocation using CVXPY optimization
@@ -37,7 +34,7 @@ This automatically runs all optimizations and saves results to `outputs/` folder
 python visualize.py
 ```
 
-Creates 4 high-quality charts in `outputs/` folder.
+Creates 4  charts in `outputs/` folder.
 
 ## Project Structure
 
@@ -119,12 +116,3 @@ Visualizations are saved as PNG files:
 - `viz_multi_campaign.png`
 - `viz_clustering.png`
 
-## Requirements
-
-- Python 3.8+
-- 11 lightweight dependencies (see requirements.txt)
-- No database or Docker required
-
-## License
-
-MIT
