@@ -1,0 +1,48 @@
+{
+  "total_budget": 100.0,
+  "optimization_target": "maximize_revenue",
+  "allocation": {
+    "Campaign_A": 40.0,
+    "Campaign_B": 5.0,
+    "Campaign_C": 5.0,
+    "Campaign_D": 5.0,
+    "Campaign_E": 5.0,
+    "Campaign_F": 5.0,
+    "Campaign_G": 5.0,
+    "Campaign_H": 20.0,
+    "Campaign_I": 5.0,
+    "Campaign_J": 5.0
+  },
+  "total_allocated": 100.0,
+  "allocation_rationale": {
+    "Campaign_A": "high_roas",
+    "Campaign_B": "moderate_performance",
+    "Campaign_C": "high_acos",
+    "Campaign_D": "moderate_performance",
+    "Campaign_E": "moderate_performance",
+    "Campaign_F": "high_acos",
+    "Campaign_G": "moderate_performance",
+    "Campaign_H": "high_roas_stable",
+    "Campaign_I": "high_acos",
+    "Campaign_J": "high_roas"
+  },
+  "expected_outcomes": {
+    "total_revenue": 145.65,
+    "overall_roas": 1.46,
+    "average_acos": 0.2034
+  },
+  "adjustment_recommendations": {
+    "increase_budget": [
+      "Campaign_A",
+      "Campaign_H",
+      "Campaign_J"
+    ],
+    "decrease_budget": [
+      "Campaign_J",
+      "Campaign_I",
+      "Campaign_F"
+    ],
+    "monitor_closely": []
+  },
+  "solver_status": "optimal"
+}

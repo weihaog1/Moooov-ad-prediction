@@ -22,10 +22,6 @@ env/
 .DS_Store
 Thumbs.db
 
-# Output files
-outputs/*.png
-outputs/*.json
-outputs/*.joblib
 !outputs/.gitkeep
 
 # Logs

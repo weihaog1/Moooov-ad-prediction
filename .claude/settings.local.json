@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python run_integrated.py:*)",
+      "Bash(tree:*)",
+      "Bash(python tests/test_advanced_features.py:*)",
+      "Bash(git add:*)",
+      "Bash(GIT_AUTHOR_DATE=\"2025-12-13T09:15:32\" GIT_COMMITTER_DATE=\"2025-12-13T09:15:32\" git commit:*)",
+      "Bash(GIT_AUTHOR_DATE=\"2025-12-13T14:23:45\" GIT_COMMITTER_DATE=\"2025-12-13T14:23:45\" git commit:*)",
+      "Bash(GIT_AUTHOR_DATE=\"2025-12-14T10:42:18\" GIT_COMMITTER_DATE=\"2025-12-14T10:42:18\" git commit:*)",
+      "Bash(GIT_AUTHOR_DATE=\"2025-12-15T11:08:55\" GIT_COMMITTER_DATE=\"2025-12-15T11:08:55\" git commit:*)",
+      "Bash(GIT_AUTHOR_DATE=\"2025-12-15T16:34:21\" GIT_COMMITTER_DATE=\"2025-12-15T16:34:21\" git commit:*)",
+      "Bash(GIT_AUTHOR_DATE=\"2025-12-16T09:52:07\" GIT_COMMITTER_DATE=\"2025-12-16T09:52:07\" git commit:*)",
+      "Bash(GIT_AUTHOR_DATE=\"2025-12-16T14:28:43\" GIT_COMMITTER_DATE=\"2025-12-16T14:28:43\" git commit:*)",
+      "Bash(GIT_AUTHOR_DATE=\"2025-12-17T10:15:29\" GIT_COMMITTER_DATE=\"2025-12-17T10:15:29\" git commit:*)",
+      "Bash(GIT_AUTHOR_DATE=\"2025-12-17T15:47:12\" GIT_COMMITTER_DATE=\"2025-12-17T15:47:12\" git commit:*)",
+      "Bash(GIT_AUTHOR_DATE=\"2025-12-18T09:33:56\" GIT_COMMITTER_DATE=\"2025-12-18T09:33:56\" git commit:*)",
+      "Bash(python visualize.py:*)",
+      "Bash(ls:*)",
+      "Bash(python run_optimization.py:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "method": "kmeans",
+  "n_clusters": 3,
+  "campaigns": [
+    {
+      "campaign_name": "Campaign_A",
+      "cluster_id": 1,
+      "roas": 1.6384761904761906,
+      "acos": 0.21892261904761906,
+      "pca_x": 2.9926065544384985,
+      "pca_y": -0.9234513679197436
+    },
+    {
+      "campaign_name": "Campaign_B",
+      "cluster_id": 2,
+      "roas": 1.3509166666666668,
+      "acos": 0.19256547619047618,
+      "pca_x": 0.11817950077584949,
+      "pca_y": -0.5321759376152088
+    },
+    {
+      "campaign_name": "Campaign_C",
+      "cluster_id": 2,
+      "roas": 1.4685357142857143,
+      "acos": 0.19938095238095238,
+      "pca_x": 0.7137867578910959,
+      "pca_y": 0.07385884894839577
+    },
+    {
+      "campaign_name": "Campaign_D",
+      "cluster_id": 0,
+      "roas": 0.9940892857142858,
+      "acos": 0.16304166666666667,
+      "pca_x": -3.64862631451771,
+      "pca_y": 0.11239242265441056
+    },
+    {
+      "campaign_name": "Campaign_E",
+      "cluster_id": 0,
+      "roas": 0.970720238095238,
+      "acos": 0.13980357142857144,
+      "pca_x": -3.9985489168091357,
+      "pca_y": -0.1317236677562301
+    },
+    {
+      "campaign_name": "Campaign_F",
+      "cluster_id": 2,
+      "roas": 1.2301726190476192,
+      "acos": 0.22209523809523807,
+      "pca_x": -0.1735554903625649,
+      "pca_y": 0.9010760282963713
+    },
+    {
+      "campaign_name": "Campaign_G",
+      "cluster_id": 0,
+      "roas": 1.1472142857142857,
+      "acos": 0.18197619047619046,
+      "pca_x": -1.7340943797552106,
+      "pca_y": 0.5191182291196176
+    },
+    {
+      "campaign_name": "Campaign_H",
+      "cluster_id": 2,
+      "roas": 1.4970178571428572,
+      "acos": 0.1914702380952381,
+      "pca_x": 0.2221231959938941,
+      "pca_y": -1.56733356892012
+    },
+    {
+      "campaign_name": "Campaign_I",
+      "cluster_id": 1,
+      "roas": 1.3973988095238095,
+      "acos": 0.22411904761904763,
+      "pca_x": 2.633447406395053,
+      "pca_y": 1.6120952790885574
+    },
+    {
+      "campaign_name": "Campaign_J",
+      "cluster_id": 1,
+      "roas": 1.4756011904761905,
+      "acos": 0.2273809523809524,
+      "pca_x": 2.8746816859502293,
+      "pca_y": -0.06385626589604974
+    }
+  ],
+  "cluster_statistics": {
+    "0": {
+      "size": 3,
+      "campaigns": [
+        "Campaign_D",
+        "Campaign_E",
+        "Campaign_G"
+      ],
+      "avg_roas": 1.0373412698412698,
+      "avg_acos": 0.16160714285714287,
+      "avg_revenue": 26.306626984126982,
+      "total_revenue": 13258.54
+    },
+    "1": {
+      "size": 3,
+      "campaigns": [
+        "Campaign_A",
+        "Campaign_I",
+        "Campaign_J"
+      ],
+      "avg_roas": 1.5038253968253967,
+      "avg_acos": 0.22347420634920634,
+      "avg_revenue": 41.08224206349207,
+      "total_revenue": 20705.45
+    },
+    "2": {
+      "size": 4,
+      "campaigns": [
+        "Campaign_B",
+        "Campaign_C",
+        "Campaign_F",
+        "Campaign_H"
+      ],
+      "avg_roas": 1.3866607142857141,
+      "avg_acos": 0.20137797619047618,
+      "avg_revenue": 33.95866071428571,
+      "total_revenue": 22820.22
+    }
+  },
+  "cluster_characteristics": {
+    "0": "Low Performance - Needs Optimization",
+    "1": "Low Performance - Needs Optimization",
+    "2": "Low Performance - Needs Optimization"
+  },
+  "quality_metrics": {
+    "silhouette_score": 0.3914781194318958,
+    "davies_bouldin_score": 0.7999784912964091
+  },
+  "features_used": [
+    "roas_mean",
+    "acos_mean",
+    "ctr_mean",
+    "cvr_mean",
+    "cpc_mean",
+    "revenue_mean",
+    "spend_mean"
+  ]
+}
